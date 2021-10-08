@@ -1,0 +1,11 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+   padding: 17px;
+   background-color: #0B0D31;
+   color: #FFF;
+   text-align: center;
+   border: 1px solid #FFF;
+}
