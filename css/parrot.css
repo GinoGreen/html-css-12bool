@@ -1,0 +1,69 @@
+/* PIXEL GIGANTE  */
+.square {
+   height: calc(540px / 12);
+}
+
+/* COLORI  */
+.white {
+   background-color: #fff;
+}
+.black {
+   background-color: #000;
+}
+.red {
+   background-color: #F53100;
+}
+.red-dark {
+   background-color: #DF1900;
+}
+.yellow {
+   background-color: #FEF423;
+}
+.yellow-dark {
+   background-color: #FFCC23;
+}
+.yellow-light {
+   background-color: #FFE29C;
+}
+.orange {
+   background-color: #FF7C2A;
+}
+.peach {
+   background-color: #FEB485;
+}
+.green {
+   background-color: #0CB800;
+}
+.green-light {
+   background-color: #82E101;
+}
+.blue {
+   background-color: #3B6AFE;
+}
+.sky {
+   background-color: #63BCFF;
+}
+.violet {
+   background-color: #8620D9;
+}
+.brown {
+   background-color: #AA4D00;
+}
+.brown-dark {
+   background-color: #611F00;
+}
+.brown-light {
+   background-color: #DB7B14;
+}
+
+@media screen and (min-width: 768px) {
+   .square {
+      height: calc(720px / 12);
+   }
+}
+
+@media screen and (min-width: 992px) {
+   .square {
+      height: calc(960px / 12);
+   }
+}
